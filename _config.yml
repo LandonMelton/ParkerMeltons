@@ -15,7 +15,7 @@ title: "Landon Melton"
 description: "This site is a collection of the hobbies and life of Landon Melton."
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ""
+baseurl: "www.parkermeltons.com"
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: "www.parkermeltons.com"
