@@ -47,7 +47,7 @@ accent_color: '#FFD700'
 
 # Site footer
 footer:
-  content: "&copy; Parker-Meltons all rights reserved. Thank you for visitng Landon's Life."
+  content: "&copy; Parker-Meltons all rights reserved. Thank you for visiting Landon's Life."
   has_social: true
 
 # Plugins
