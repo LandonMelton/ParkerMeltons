@@ -39,15 +39,13 @@ navigation:
   - text: Treat
     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-# The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
 
 # Colors
 accent_color: '#FFD700'
 
 # Site footer
 footer:
-  content: "&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com)."
+  content: "&copy; Parker-Meltons all rights reserved. Thanks for viewing Landon's Life!"
   has_social: true
 
 # Plugins
