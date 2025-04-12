@@ -21,7 +21,7 @@ baseurl: "www.parkermeltons.com"
 url: "https://scriptor-jekyll.netlify.com"
 
 # Favicon
-favicon: images/favicon1.png
+favicon: images/favicon.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 google_analytics: "G-BGTJ3HJF3S"
