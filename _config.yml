@@ -15,10 +15,10 @@ title: "Landon Melton"
 description: "This site is a collection of the hobbies and life of Landon Melton."
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: "/Landon"
+baseurl: ""
 
 # The base hostname & protocol of your site for where absolute urls are needed.
-url: "https://scriptor-jekyll.netlify.com"
+url: "www.parkermeltons.com"
 
 # Favicon
 favicon: images/favicon.png
@@ -29,14 +29,14 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: /
+    url: www.parkermeltons.com/
   - text: About
-    url: /about/
-  - text: Style Guide
-    url: /style-guide/
-  - text: Tags
-    url: /tags/
-  - text: Download
+    url: www.parkermeltons.com/about/
+  - text: Manuals
+    url: www.parkermeltons.com/style-guide/
+  - text: Life
+    url: www.parkermeltons.com/tags/
+  - text: Treat
     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # The shortname for your Disqus site to enable comments.
