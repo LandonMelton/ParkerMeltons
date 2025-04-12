@@ -29,13 +29,13 @@ google_analytics: ""
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: www.parkermeltons.com/
+    url: 
   - text: About
-    url: www.parkermeltons.com/about/
+    url: /about/
   - text: Manuals
-    url: www.parkermeltons.com/style-guide/
+    url: /style-guide/
   - text: Life
-    url: www.parkermeltons.com/tags/
+    url: /tags/
   - text: Treat
     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
