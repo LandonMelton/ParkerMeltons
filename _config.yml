@@ -39,9 +39,6 @@ navigation:
   - text: Treat
     url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
-# The shortname for your Disqus site to enable comments.
-disqus: justgoodthemes
-
 # Colors
 accent_color: '#FFD700'
 
