@@ -29,7 +29,7 @@ google_analytics: "G-BGTJ3HJF3S"
 # Site navigation - each item must have a title and a url.
 navigation:
   - text: Home
-    url: 
+    url: /
   - text: About
     url: /about/
   - text: Manuals
