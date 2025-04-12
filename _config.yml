@@ -9,7 +9,7 @@
 lang: en-US
 
 # Site title
-title: "Scriptor"
+title: "Landon's Life"
 
 # A description of your site for meta tag, search engine results.
 description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
@@ -36,8 +36,8 @@ navigation:
     url: /style-guide/
   - text: Tags
     url: /tags/
-  - text: Download
-    url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+  - text: Treat
+    url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 # The shortname for your Disqus site to enable comments.
 disqus: justgoodthemes
