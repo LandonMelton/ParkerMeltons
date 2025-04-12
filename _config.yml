@@ -12,7 +12,7 @@ lang: en-US
 title: "Landon's Life"
 
 # A description of your site for meta tag, search engine results.
-description: "Scriptor is a minimal, clean, modern & responsive Jekyll theme for writers"
+description: "Landon"
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
@@ -43,7 +43,7 @@ navigation:
 disqus: justgoodthemes
 
 # Colors
-accent_color: '#2d72d9'
+accent_color: '#FFD700'
 
 # Site footer
 footer:
