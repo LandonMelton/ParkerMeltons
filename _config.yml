@@ -24,7 +24,7 @@ url: "www.parkermeltons.com"
 favicon: images/favicon1.png
 
 # Google Analytics id, e.g. "UA-NNNNNNNN-N"
-google_analytics: ""
+google_analytics: "G-BGTJ3HJF3S"
 
 # Site navigation - each item must have a title and a url.
 navigation:
