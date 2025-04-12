@@ -12,7 +12,7 @@ lang: en-US
 title: "Landon's Life"
 
 # A description of your site for meta tag, search engine results.
-description: "Landon"
+description: "Landon is a snail denier, friend to fish, botanist and engineer of da chemicals. He's also sassy and a little fruity."
 
 # The subpath of your site, e.g. /blog, for generating urls.
 baseurl: ""
