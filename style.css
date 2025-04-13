@@ -1,0 +1,29 @@
+h1{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Testing comments*/
+h2{
+
+text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    color: blueviolet;
+    
+
+}
+
+
+#link1{
+
+    color: gold;
+
+}
+#link2{
+    color: orangered;
+}
