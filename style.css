@@ -48,6 +48,8 @@ a{
 
 .photo{
     margin-right: 20 px;
+    width: 100px; /* Makes the photo smaller */
+    height: auto; /* Keeps the aspect ratio */
 }
 
 .text{
