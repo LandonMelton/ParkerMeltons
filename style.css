@@ -1,7 +1,7 @@
 h1{
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
 }
 /*Testing comments*/
@@ -84,4 +84,19 @@ a:hover{
 }
 .button:hover {
     background-color: #ff01ff; /* Changes background color on hover */
+}
+
+.top-left {
+    position: absolute;
+    top: 10px; /* Adjusts the vertical position */
+    left: 10px; /* Adjusts the horizontal position */
+    width: 50px; /* Adjusts the size of the image */
+    height: auto; /* Maintains aspect ratio */
+}
+.top-right {
+    position: absolute;
+    top: 10px; /* Adjusts the vertical position */
+    right: 10px; /* Adjusts the horizontal position */
+    width: 50px; /* Adjusts the size of the image */
+    height: auto; /* Maintains aspect ratio */
 }
