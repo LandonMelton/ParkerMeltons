@@ -57,3 +57,14 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
+
+.navbar{
+
+    display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+}
+
+a:hover{
+    color: #ff00aa;
+}
