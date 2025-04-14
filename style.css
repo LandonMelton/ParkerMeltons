@@ -1,6 +1,7 @@
 h1{
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
 }
 /*Testing comments*/
 h2{
@@ -11,9 +12,13 @@ text-align: center;
 body{
 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
 }
 a{
     color: blueviolet;
+    font-family: "Times New Roman", Times, serif;
+            font-size: 40px;
+            
     
 
 }
@@ -21,9 +26,16 @@ a{
 
 #link1{
 
-    color: gold;
+    color: #ffd700;
 
 }
 #link2{
     color: orangered;
+}
+
+.everything{
+
+    background-color: #b49678;
+    margin: 2px 12px 8px;
+
 }
