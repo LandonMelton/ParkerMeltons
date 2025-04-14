@@ -108,11 +108,5 @@ a:hover{
     transition: transform 0.5s ease-in-out; /* Smooth transition for spinning */
 }
 .spin:hover {
-    transform: rotate(360); /* Spins the image on hover */
-}
-.top-left.spin {
-    position: absolute;
-}
-.top-right.spin {
-    position: absolute;
+    transform: rotate(360deg); /* Spins the image on hover */
 }
