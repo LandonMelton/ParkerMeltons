@@ -2,6 +2,7 @@ h1{
 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 80px;
+    text-align: center;
 }
 /*Testing comments*/
 h2{
@@ -26,11 +27,11 @@ a{
 
 #link1{
 
-    color: #ffd700;
+    color: blueviolet;
 
 }
 #link2{
-    color: orangered;
+    color: blueviolet;
 }
 
 .everything{
