@@ -68,3 +68,20 @@ a{
 a:hover{
     color: #ff01ff;
 }
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #45135c; /* Text color */
+    background-color: #e0e2e4; /* Button background color */
+    text-decoration: none; /* Removes the underline */
+    border-radius: 5px; /* Adds rounded corners */
+    border: none; /* Removes any border */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Optional: Adds a slight shadow */
+    cursor: pointer; /* Changes the cursor to a pointer when hovered */
+}
+.button:hover {
+    background-color: #ff01ff; /* Changes background color on hover */
+}
