@@ -101,3 +101,19 @@ a:hover{
     height: auto; /* Maintains aspect ratio */
 }
 
+.spin {
+    position: absolute;
+    width: 50px; /* Adjust the size of the image */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.5s ease-in-out; /* Smooth transition for spinning */
+}
+.spin:hover {
+    transform: rotate(360deg); /* Spins the image on hover */
+}
+
+.top-left.spin {
+    position: absolute;
+}
+.top-right.spin {
+    position: absolute;
+}
