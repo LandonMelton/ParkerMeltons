@@ -110,3 +110,9 @@ a:hover{
 .spin:hover {
     transform: rotate(360); /* Spins the image on hover */
 }
+.top-left.spin {
+    position: absolute;
+}
+.top-right.spin {
+    position: absolute;
+}
