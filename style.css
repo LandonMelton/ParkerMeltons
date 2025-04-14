@@ -44,7 +44,7 @@ a{
 .container{
     display: flex;
     align-items: center;
-    background-color: beige;
+    background-color: white;
 }
 
 .photo{
