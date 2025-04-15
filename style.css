@@ -113,3 +113,43 @@ a:hover{
 .relative-container {
     position: relative;
 }
+/*Everything below here focused on making the blog look from co-pilot*/
+.blog-container {
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+  }
+  
+  header .blog-title {
+    font-family: 'Georgia', serif;
+    font-size: 28px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  header .blog-details {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #888888;
+    margin-bottom: 20px;
+  }
+  
+  .blog-paragraph {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    color: #444444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .blog-photo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border-radius: 8px;
+  }
