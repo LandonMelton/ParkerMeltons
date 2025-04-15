@@ -110,3 +110,6 @@ a:hover{
 .spin:hover {
     transform: rotate(360deg); /* Spins the image on hover */
 }
+.relative-container {
+    position: relative;
+}
