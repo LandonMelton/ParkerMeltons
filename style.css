@@ -110,9 +110,7 @@ a:hover{
 .spin:hover {
     transform: rotate(360deg); /* Spins the image on hover */
 }
-.relative-container {
-    position: absolute;
-}
+
 /*Everything below here focused on making the blog look from co-pilot*/
 .blog-container {
     margin: 20px auto;
