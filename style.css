@@ -57,7 +57,7 @@ a{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
-
+/*Buttons for getting around website*/
 .navbar{
 
     display: flex;
@@ -85,7 +85,7 @@ a:hover{
 .button:hover {
     background-color: #ff01ff; /* Changes background color on hover */
 }
-
+/*Spinning Faces*/
 .top-left {
     position: absolute;
     top: 10px; /* Adjusts the vertical position */
@@ -150,4 +150,31 @@ a:hover{
     margin: 20px auto;
     max-width: 100%;
     border-radius: 8px;
+  }
+  /*Everything below here focused on Social Media Slide*/
+  .socials-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .title {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 20px;
+  }
+  
+  .icons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
