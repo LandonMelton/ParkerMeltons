@@ -178,3 +178,23 @@ a:hover{
     align-items: center;
     justify-content: center;
   }
+  /*Adding in a read more feature*/
+  details {
+    background: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  summary {
+    font-family: Arial, sans-serif;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #003366;
+  }
+  
+  summary:hover {
+    color: #ffd700;
+  }
