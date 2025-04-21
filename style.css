@@ -274,12 +274,12 @@ a:hover{
 }
 @keyframes fadeWhiteToBlack {
     0% {
-        color: white; /* Start with white color */
+        color: #f0f0f0; /* Start with white color */
     }
     50% {
         color: black; /* Transition to black color */
     }
     100% {
-        color: white; /* Transition back to white color */
+        color: #f0f0f0; /* Transition back to white color */
     }
 }
