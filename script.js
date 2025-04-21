@@ -1,15 +1,33 @@
-// Get the current page URL to determine which tag to filter
-const pageTag = new URL(window.location.href).searchParams.get("tag"); // e.g., ?tag=sea
+// Get the current page name (e.g., "sea.html")
+const currentPage = window.location.pathname.split("/").pop().replace(".html", ""); // e.g., "sea"
 
-// Select all blog containers
-const blogContainers = document.querySelectorAll(".blog-container");
+// Select all blog containers from your main blog HTML file
+const allBlogs = [
+    {
+        tag: "poem",
+        content: `
+            <div class="blog-container" data-tag="poem">
+                <h2>Poem and Haiku</h2>
+                <p>A creative poem about turtles...</p>
+            </div>
+        `,
+    },
+    {
+        tag: "fish",
+        content: `
+            <div class="blog-container" data-tag="fish">
+                <h2>The Tale of Alexandopher</h2>
+                <p>A story about Alexandopher the fish...</p>
+            </div>
+        `,
+    },
+];
 
-// Loop through blog containers and display only those matching the tag
-blogContainers.forEach(container => {
-    const tag = container.getAttribute("data-tag");
-    if (tag === pageTag) {
-        container.style.display = "block"; // Show matching container
-    } else {
-        container.style.display = "none"; // Hide others
-    }
+// Filter and load only the blogs matching the current page tag
+const filteredBlogs = allBlogs.filter(blog => blog.tag === currentPage);
+
+// Insert the filtered blogs into the page
+const blogPostsContainer = document.getElementById("blog-posts");
+filteredBlogs.forEach(blog => {
+    blogPostsContainer.innerHTML += blog.content;
 });
