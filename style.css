@@ -248,3 +248,21 @@ a:hover{
     width: 50px; /* Size of social media icons */
     height: auto;
 }
+
+/*Add in photo that is fading to black and white and back*/
+.fade-photo {
+    width: 300px; /* Adjust width of the photo */
+    height: auto;
+    animation: fadeToBlackAndWhite 10s infinite; /* Animation every 10 seconds */
+}
+@keyframes fadeToBlackAndWhite {
+    0% {
+        filter: grayscale(0); /* Full color */
+    }
+    50% {
+        filter: grayscale(100%); /* Fully black-and-white */
+    }
+    100% {
+        filter: grayscale(0); /* Back to full color */
+    }
+}
