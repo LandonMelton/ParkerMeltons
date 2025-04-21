@@ -209,3 +209,42 @@ a:hover{
     text-align: center; /* Centers the text inside the content */
     font-family: Arial, sans-serif;
 }
+
+/*Adding side photos*/
+.layout {
+    display: flex;
+    width: 100%;
+}
+
+
+.left-side, .right-side {
+    flex: 1; /* Each side takes equal space */
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Centers images horizontally */
+    gap: 10px; /* Adds space between stacked images */
+    padding: 10px; /* Optional: Adds padding */
+}
+
+.left-side img, .right-side img {
+    width: 80%; /* Scale images relative to container */
+    max-width: 150px; /* Optional: Limit maximum width */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #ccc; /* Optional: Adds a border for style */
+    border-radius: 5px; /* Optional: Adds rounded corners */
+}
+.main-content {
+    flex: 3; /* Center content is wider than the sides */
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.socials-page {
+    margin-bottom: 20px; /* Adds spacing between sections */
+}
+
+.icons-containers img {
+    width: 50px; /* Size of social media icons */
+    height: auto;
+}
