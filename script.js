@@ -1,8 +1,8 @@
 // Get the current page name (e.g., "fish.html" or "travel.html")
 const currentPage = window.location.pathname.split("/").pop().replace(".html", "");
 
-// Fetch the content of index.html
-fetch("index.html")
+// Fetch the content of blog.html
+fetch("blog.html")
     .then(response => response.text()) // Get the HTML content as text
     .then(html => {
         // Parse the HTML content into a DOM structure
