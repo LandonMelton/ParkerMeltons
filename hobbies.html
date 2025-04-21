@@ -1,92 +1,168 @@
 <!DOCTYPE html>
-<!--Type of file hyper text markup language.-->
 <html lang="en">
-  <!--Its in English-->
-  <head>
+<head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-<!--Dont touch anything that says Meta.-->
-
     <title>Landon's Life Hobbies</title>
-    <link rel="icon" type="image/x-icon" href="resources/images/background.jpg">
-    <!--Make sure to open and close. This is what displays on browser.-->
-
     <link rel="stylesheet" href="style.css">
-<!--Stylesheet. Links background references to display text. Css Code that gives characters colors or layout.-->
-<style>
-/*body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  background-color: #f0f0f0; /* Fallback background color */
-  .layout {
+    <style>
+        /* Additional styling for the diagram */
+        .diagram-container {
             display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
             width: 100%;
+            height: 80vh;
+            margin-top: 20px;
         }
 
-        .side {
-            flex: 1;
-            background-image: url('resources/images/background.jpg') ; /* Replace with your photo path */
-            background-size: cover;
-            background-position: center;
-            height: 100vh; /* Full viewport height */
-        }
-
-        .main-area {
-            flex: 3; /* Adjust width of the center content relative to the sides */
-            background-color: white;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow for better definition */
+        .center-hobbies {
+            position: absolute;
+            width: 150px;
+            height: 150px;
+            background-color: #ffd700; /* Gold background for the central hobbies */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 24px;
+            color: #003366;
+            font-family: 'Lucida Sans', Geneva, sans-serif;
             text-align: center;
         }
 
-        .date, .author, .paragraph {
-            margin: 10px 0;
+        .hobby-button {
+            position: absolute;
+            padding: 10px 20px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #fff;
+            background-color: #45135c; /* Text color for buttons */
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+            cursor: pointer;
         }
 
-        .photo {
-            width: 80%; /* Adjust the size of the image */
-            max-width: 500px;
-            height: auto;
-            margin: 20px auto;
-            display: block;
-        }</style>
-  </head>
-  <!--Closes the head.-->
-  <body>
+        /* Positioning for the buttons */
+        .fish {
+            top: 10%; left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .plants {
+            top: 30%; right: 15%;
+        }
+
+        .running {
+            top: 50%; left: 10%;
+        }
+
+        .gaming {
+            top: 70%; right: 10%;
+        }
+
+        .crafting {
+            bottom: 10%; left: 50%;
+            transform: translate(-50%, 50%);
+        }
+
+        .kickball {
+            bottom: 30%; left: 15%;
+        }
+
+        .traveling {
+            bottom: 10%; right: 15%;
+        }
+
+        /* Optional hover effect for the buttons */
+        .hobby-button:hover {
+            background-color: #ff01ff;
+        }
+
+        /* Arrow lines */
+        .arrow {
+            position: absolute;
+            width: 2px;
+            height: 100px;
+            background-color: #000;
+            transform-origin: top center;
+        }
+
+        .arrow-1 {
+            top: 20%; left: 50%;
+            transform: translate(-50%, 0) rotate(180deg); /* Fish */
+        }
+
+        .arrow-2 {
+            top: 20%; right: 10%;
+            transform: rotate(45deg); /* Plants */
+        }
+
+        .arrow-3 {
+            top: 50%; left: 20%;
+            transform: rotate(-45deg); /* Running */
+        }
+
+        .arrow-4 {
+            bottom: 30%; right: 15%;
+            transform: rotate(-90deg); /* Gaming */
+        }
+
+        .arrow-5 {
+            bottom: 10%; left: 50%;
+            transform: translate(-50%, -50%) rotate(90deg); /* Crafting */
+        }
+
+        .arrow-6 {
+            bottom: 25%; left: 15%;
+            transform: rotate(20deg); /* Kickball */
+        }
+
+        .arrow-7 {
+            bottom: 15%; right: 15%;
+            transform: rotate(-20deg); /* Traveling */
+        }
+    </style>
+</head>
+<body>
     <div class="everything">
-  <H1 style="text-align: center;">Welcome to Landon's Life</H1>
-  <div class="navbar">
-  <a href="index.html" class="button">Home</a>
-  <a href="hobbies.html" class="button">Hobbies</a>
-  <a href="blog.html" class="button">Blog</a>
-  <a href="socialmedia.html" class="button">Social Media</a>
-  <a href="donation.html" class="button">Live Fish Cam</a>
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Treat</a>
-</div>
-  <hr>
-  <H2 style="font-size: 50px;"> Landon's Hobbies</H2>
-  <br>
-<hr>
-<img class="spin top-left" src="resources/images/landonface.png" alt="top left photo">
-<img class="spin top-right" src="resources/images/landonface.png" alt="top right photo">
-</div>
-      <div class="blog-container">
-      <header>
-      <h2 class="blog-title">Work in Progress</h2>
-      <p class="blog-details"></p>
-      </header>
-      <article>
-      
-      </article>
-  <img class="photo" src="/resources/images/maine.jpg" alt="Centered photo">
+        <h1>Welcome to Landon's Life</h1>
+        <div class="navbar">
+            <a href="index.html" class="button">Home</a>
+            <a href="hobbies.html" class="button">Hobbies</a>
+            <a href="blog.html" class="button">Blog</a>
+            <a href="socialmedia.html" class="button">Social Media</a>
+            <a href="donation.html" class="button">Live Fish Cam</a>
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="button">Treat</a>
+        </div>
+        <hr>
+
+        <!-- Diagram Section -->
+        <div class="diagram-container">
+            <div class="center-hobbies">Hobbies</div>
+
+            <!-- Hobby Buttons -->
+            <a href="fish.html" class="hobby-button fish">Fish</a>
+            <a href="plants.html" class="hobby-button plants">Plants</a>
+            <a href="running.html" class="hobby-button running">Running & Kachava</a>
+            <a href="gaming.html" class="hobby-button gaming">Gaming</a>
+            <a href="crafting.html" class="hobby-button crafting">Crafting</a>
+            <a href="kickball.html" class="hobby-button kickball">Kickball</a>
+            <a href="traveling.html" class="hobby-button traveling">Traveling</a>
+
+            <!-- Arrows -->
+            <div class="arrow arrow-1"></div>
+            <div class="arrow arrow-2"></div>
+            <div class="arrow arrow-3"></div>
+            <div class="arrow arrow-4"></div>
+            <div class="arrow arrow-5"></div>
+            <div class="arrow arrow-6"></div>
+            <div class="arrow arrow-7"></div>
+        </div>
     </div>
-  </div>
-  <div class="side"></div>
-  </div>
 </body>
 </html>
