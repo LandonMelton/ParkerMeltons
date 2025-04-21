@@ -111,6 +111,11 @@ a:hover{
     transform: rotate(360deg); /* Spins the image on hover */
 }
 
+.click-button:active {
+    transform: rotate(360deg);
+
+}
+
 /*Everything below here focused on making the blog look from co-pilot*/
 .blog-container {
     margin: 20px auto;
