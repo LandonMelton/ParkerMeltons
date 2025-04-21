@@ -266,3 +266,14 @@ a:hover{
         filter: grayscale(0); /* Back to full color */
     }
 }
+@keyframes fadeWhiteToBlack {
+    0% {
+        color: white; /* Start with white color */
+    }
+    50% {
+        color: black; /* Transition to black color */
+    }
+    100% {
+        color: white; /* Transition back to white color */
+    }
+}
