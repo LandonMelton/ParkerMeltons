@@ -266,6 +266,12 @@ a:hover{
         filter: grayscale(0); /* Back to full color */
     }
 }
+.fade-text {
+    font-size: 50px; /* Adjust the font size */
+    font-family: Arial, sans-serif; /* Set the font */
+    text-align: center; /* Center the text */
+    animation: fadeWhiteToBlack 10s infinite; /* Apply the animation */
+}
 @keyframes fadeWhiteToBlack {
     0% {
         color: white; /* Start with white color */
