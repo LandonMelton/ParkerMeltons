@@ -4,20 +4,19 @@ const currentPage = window.location.pathname.split("/").pop().replace(".html", "
 // Select all blog containers from your main blog HTML file
 const allBlogs = [
     {
-        tag: "poem",
-        content: `
-            <div class="blog-container" data-tag="poem">
-                <h2>Poem and Haiku</h2>
-                <p>A creative poem about turtles...</p>
-            </div>
-        `,
-    },
-    {
         tag: "fish",
         content: `
             <div class="blog-container" data-tag="fish">
                 <h2>The Tale of Alexandopher</h2>
                 <p>A story about Alexandopher the fish...</p>
+            </div>
+        `,
+    },{
+        tag: "plants",
+        content: `
+            <div class="blog-container" data-tag="plants">
+                <h2>Poem and Haiku</h2>
+                <p>A creative poem about turtles...</p>
             </div>
         `,
     },
