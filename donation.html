@@ -100,7 +100,7 @@
   <br>
   <div class="center">
     <div class="content">
-  <iframe
+  <iframe id="videoFrame"
   width="560" 
   height="315" 
   src="https://www.youtube.com/embed/1SiylvmFI_8?start=62&autoplay=1" 
@@ -108,6 +108,12 @@
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
   allowfullscreen>
 </iframe>
+<script>
+    window.onload = function() {
+        const videoFrame = document.getElementById("videoFrame");
+        videoFrame.src += "&mute=0"; // Try to force unmute
+    };
+</script>
 </div>
 </div>
   <br>
