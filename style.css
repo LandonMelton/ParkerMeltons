@@ -333,3 +333,9 @@ a:hover{
 .hobby-button:hover {
     background-color: #005A9E; /* Darker shade on hover */
 }
+
+.content-layout {
+    display: flex; /* Enables flexbox */
+    align-items: flex-start; /* Aligns items at the top */
+    gap: 20px; /* Space between the hobbies box and blog container */
+}
