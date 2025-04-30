@@ -295,3 +295,41 @@ a:hover{
     height: 20vh; /* Full viewport height */
     background-color: #f0f0f0; /* Optional: Adds a light background */
 }
+
+/* Hobbies Box*/
+.hobbies-box {
+    background-color: #fff; /* White background */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    width: 200px; /* Fixed width */
+    margin: 20px; /* Space from edges */
+}
+
+.hobbies-box h2 {
+    font-size: 24px;
+    text-align: left;
+    margin-bottom: 10px; /* Space below heading */
+    color: #003366; /* Dark blue title */
+}
+
+.hobby-button {
+    display: block;
+    width: 100%; /* Make buttons fit full width */
+    padding: 10px;
+    font-size: 16px;
+    text-align: left;
+    background-color: #0078D7; /* Button background */
+    color: white; /* Text color */
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 5px; /* Space between buttons */
+    transition: background-color 0.3s;
+}
+
+.hobby-button:hover {
+    background-color: #005A9E; /* Darker shade on hover */
+}
